@@ -94,7 +94,7 @@ int substringOccurrence(const char* str, const char* substr) {
     return count;
 }
 
-void vigenereEncrypt(const char* text, const char* key, char* result) {
+/*void vigenereEncrypt(const char* text, const char* key, char* result) {
     int keyLen = strlen(key);
     int j = 0;
     for (int i = 0; text[i] != '\0'; i++) {
@@ -114,4 +114,4 @@ void vigenereEncrypt(const char* text, const char* key, char* result) {
         }
     }
     result[strlen(text)] = '\0';
-}
+}*/
